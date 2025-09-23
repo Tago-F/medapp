@@ -1,7 +1,7 @@
 package com.tagoapp.backend.entity;
 
-import java.sql.Date;
 import java.sql.Timestamp;
+import java.time.LocalDate;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -33,7 +33,7 @@ public class Equipment {
 
     private String manufacturer;
 
-    private Date purchaseDate;
+    private LocalDate purchaseDate;
 
     private String status;
 
